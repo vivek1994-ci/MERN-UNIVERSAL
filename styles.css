@@ -1,0 +1,99 @@
+*{
+    margin:0;
+    padding: 0;
+}
+ html{
+scroll-behavior: smooth;
+ }
+.nav{
+    font-weight: 700;
+    text-decoration: none;
+    padding: 20px;
+    background-color: antiquewhite;
+    position: sticky;
+    overflow: hidden;
+    top:0;
+    text-align: center;  
+}
+a{
+    padding: 10px;
+    text-decoration: none;
+}
+a:hover{
+    color: red;
+    text-decoration: underline;
+   
+}
+.container{
+    background-color: azure;
+}
+section{
+    margin: 20px;
+}
+img{
+    border-radius: 10px;
+}
+img:hover{
+    border-radius: 40px;
+}
+.about{
+    background-color: lightblue;
+}
+.services{
+    background-color:cyan;
+}
+.contact{
+    background-color: plum;
+}
+.help{
+    background-color: grey;
+    color: white;
+}
+#List{
+    margin: 50px;
+}
+table,tr,th,td{
+    border:1px solid brown;
+    border-radius: 20px;
+    font-size: 2rem;
+    padding: 20px;
+    text-align: center;
+}
+th{
+    background-color: rgb(99, 91, 117);
+    color: aliceblue;
+}
+th:hover{
+    color: blue;
+    background-color: aqua;
+    cursor: pointer;
+}
+td:hover{
+    background-color: pink;
+    cursor: pointer;
+}
+form,input,option,select,textarea{
+    font-size: 20px;
+    padding: 5px;
+    margin: 10px;
+}
+
+.regform{
+    background-color: azure;
+    width: 1000px;
+    height: 38rem;            
+}
+.reg{
+    background-color: beige;
+    height: 33rem;
+    
+}
+.footer{
+    background-color: black;
+    color:white;
+    height: 5rem;
+    text-align: center;
+}
+p{
+    padding: 32px;
+}
